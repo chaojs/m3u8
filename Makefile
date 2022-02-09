@@ -1,5 +1,5 @@
 APP_NAME := m3u8
-APP_VERSION := 0.1.0
+APP_VERSION := 0.1.1
 BIN_NAME := m3u8
 
 SHELL := /bin/bash
