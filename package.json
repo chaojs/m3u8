@@ -1,0 +1,26 @@
+{
+    "name": "@chaojs/m3u8",
+    "version": "0.0.1",
+    "private": false,
+    "description": "",
+    "bin": {
+        "xstreamlink": "./dist/main.js"
+    },
+    "scripts": {
+        "build": "ncc build src/main.ts -o dist",
+        "dev": "tsc",
+        "fmt": "dprint fmt"
+    },
+    "dependencies": {
+        "m3u8_multi_downloader": "^1.1.5"
+    },
+    "files": [
+        "dist"
+    ],
+    "devDependencies": {
+        "@types/node": "^17.0.16",
+        "@vercel/ncc": "^0.33.1",
+        "dprint": "^0.22.0",
+        "typescript": "^4.5.5"
+    }
+}
