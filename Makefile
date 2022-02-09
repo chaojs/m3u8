@@ -1,5 +1,5 @@
 APP_NAME := m3u8
-APP_VERSION := 0.0.1
+APP_VERSION := 0.1.0
 BIN_NAME := m3u8
 
 SHELL := /bin/bash
@@ -15,3 +15,6 @@ fmt:
 
 publish:
 	npm publish --access public
+
+release:
+	npm run release
